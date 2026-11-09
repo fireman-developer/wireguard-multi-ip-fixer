@@ -11,6 +11,12 @@
 <a name="english-documentation"></a>
 ## 🇬🇧 English Documentation
 
+## Installation
+----
+
+curl -fsSL https://raw.githubusercontent.com/fireman-developer/wireguard-multi-ip-fixer/main/wgmipfixer.sh -o wgmipfixer.sh && sudo bash wgmipfixer.sh
+
+----
 ### Overview
 When running **WireGuard** or low-level UDP tunnel forwarders (such as **Backpack**, **PasarGuard nodes**, **Sing-box**, or raw-socket relays) on a Linux server with multiple public IPv4 addresses, the tunnel process typically binds to wildcard `*:51820` (`0.0.0.0:51820`).
 
@@ -67,6 +73,15 @@ Both incoming (148 bytes) and outgoing (92 bytes) handshake packets will now car
 
 <a name="توضیحات-فارسی"></a>
 ## 🇮🇷 توضیحات فارسی
+
+## نصب 
+
+----
+
+curl -fsSL https://raw.githubusercontent.com/fireman-developer/wireguard-multi-ip-fixer/main/wgmipfixer.sh -o wgmipfixer.sh && sudo bash wgmipfixer.sh
+
+----
+
 
 ### معرفی و بیان مشکل
 هنگام راه‌اندازی **وایرگارد (WireGuard)** یا ابزارهای تانلینگ مبتنی بر UDP (مانند **Backpack**، نودهای **پاسارگارد**، **Sing-box** و غیره) روی سرورهای لینوکسی که بیش از یک آی‌پی پابلیک دارند (یا آی‌پی‌های آن‌ها جابه‌جا شده است)، برنامه تانل معمولاً روی `*:51820` (`0.0.0.0:51820`) گوش می‌دهد.
